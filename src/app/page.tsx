@@ -36,6 +36,56 @@ const sampleUser = {
       ],
     },
   ],
+  workExperenceData: [
+    {
+      id: 1,
+      jobTitle: "Senior Marketing Specialist",
+      company: "BrightPath Marketing Agency",
+      city: "New York",
+      state: "NY",
+      dates: {
+        start: "June 2020",
+        end: "present",
+      },
+      bullet_point: [
+        "Lead the development and execution of integrated marketing campaigns for clients in the tech and retail industries, resulting in a 25% average increase in customer engagement.",
+        "Manage a team of 4 junior marketers, providing mentorship and guidance on campaign strategy and execution.",
+        "Analyze campaign performance using Google Analytics and Tableau, delivering actionable insights to optimize ROI.",
+      ],
+    },
+    {
+      id: 2,
+      jobTitle: "Senior Marketing Specialist",
+      company: "BrightPath Marketing Agency",
+      city: "New York",
+      state: "NY",
+      dates: {
+        start: "June 2020",
+        end: "present",
+      },
+      bullet_point: [
+        "Lead the development and execution of integrated marketing campaigns for clients in the tech and retail industries, resulting in a 25% average increase in customer engagement.",
+        "Manage a team of 4 junior marketers, providing mentorship and guidance on campaign strategy and execution.",
+        "Analyze campaign performance using Google Analytics and Tableau, delivering actionable insights to optimize ROI.",
+      ],
+    },
+    {
+      id: 3,
+      jobTitle: "Senior Marketing Specialist",
+      company: "BrightPath Marketing Agency",
+      city: "New York",
+      state: "NY",
+      dates: {
+        start: "June 2020",
+        end: "present",
+      },
+      bullet_point: [
+        "Lead the development and execution of integrated marketing campaigns for clients in the tech and retail industries, resulting in a 25% average increase in customer engagement.",
+        "Manage a team of 4 junior marketers, providing mentorship and guidance on campaign strategy and execution.",
+        "Analyze campaign performance using Google Analytics and Tableau, delivering actionable insights to optimize ROI.",
+      ],
+    },
+  ],
 };
 
 export default function Page() {
