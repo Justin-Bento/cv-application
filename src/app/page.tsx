@@ -41,6 +41,42 @@ export default function page() {
             <h2 className="scroll-m-10 border-b pb-1 text-base/6 font-semibold tracking-tight transition-colors m-0 p-0">
               Skills
             </h2>
+            <ul className="[&>li:first-child]:font-bold flex items-center gap-y-0 gap-x-2 list-none flex-wrap">
+              <li>Digital Marketing:</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set</li>
+            </ul>
+            <ul className="[&>li:first-child]:font-bold flex items-center gap-y-0 gap-x-2 list-none flex-wrap">
+              <li>Social Media:</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set</li>
+            </ul>
+            <ul className="[&>li:first-child]:font-bold flex items-center gap-y-0 gap-x-2 list-none flex-wrap">
+              <li>Content Creation:</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set,</li>
+              <li>Skill Set</li>
+            </ul>
           </section>
           {/* 
             End of Skills
