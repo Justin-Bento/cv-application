@@ -98,6 +98,14 @@ const sampleUser = {
         "Once upon a time, in a far-off land, there was a very lazy king who spent all day lounging on his throne. One day, his advisors came to him with a problem: the kingdom was running out of money",
     },
   ],
+  educationData: [
+    {
+      school: "New York University",
+      degree: "Marketing",
+      credential: "Bachelor of Science",
+      graduation: "May 2017",
+    },
+  ],
 };
 
 export default function Page() {
@@ -208,7 +216,17 @@ export default function Page() {
             >
               Education
             </h2>
-            <Eduction />
+            {sampleUser.educationData.map((data, index) => {
+              return (
+                <Eduction
+                  key={index}
+                  school={data.school}
+                  degree={data.degree}
+                  credential={data.credential}
+                  graduation={data.graduation}
+                />
+              );
+            })}
           </section>
         </div>
       </section>
