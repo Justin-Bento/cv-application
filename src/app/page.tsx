@@ -3,32 +3,41 @@ import ResumeHeader from "@/components/ResumeHeader";
 import ProfessionalSummary from "@/components/ProfessionalSummary";
 import ProfessionalSkills from "@/components/ProfessionalSkills";
 
-const professionalSkillsData = [
-  {
-    specializations: "Digital Marketing",
-    highlights: [
-      "Campaign Strategy",
-      "SEO",
-      "Email Advertising",
-      "Conversion Rate Optimization",
-      "Google Analytics KPI",
-    ],
-  },
-  {
-    specializations: "Web Development",
-    highlights: ["React", "Next.js", "Tailwind CSS", "Node.js", "TypeScript"],
-  },
-  {
-    specializations: "Graphic Design",
-    highlights: [
-      "Adobe Photoshop",
-      "Adobe Illustrator",
-      "Figma",
-      "UI/UX Design",
-      "Branding",
-    ],
-  },
-];
+const sampleUser = {
+  name: "Ava JohnSon",
+  email: "john.doe@gmail.com",
+  phoneNumber: 6474640303,
+  website: "www.john-doe.com",
+  linkedin: "john_doe",
+  github: "john_doe",
+  summary:
+    "Creative and results-driven Marketing Professional with 5+ years of experience in digital marketing, brand strategy, and content creation. Skilled in developing data-driven campaigns that drive engagement and revenue growth. Adept at managing cross-functional teams and building strong client relationships. Passionate about storytelling and leveraging emerging technologies to enhance brand visibility",
+  professionalSkillsData: [
+    {
+      specializations: "Digital Marketing",
+      highlights: [
+        "Campaign Strategy",
+        "SEO",
+        "Email Advertising",
+        "Conversion Rate Optimization",
+        "Google Analytics KPI",
+        //  ...
+      ],
+    },
+    {
+      specializations: "Web Development",
+      highlights: [
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Node.js",
+        "TypeScript",
+        //  ...
+      ],
+    },
+  ],
+};
+
 export default function Page() {
   return (
     <main className="grid grid-cols-12 gap-4">
@@ -48,12 +57,12 @@ export default function Page() {
         <div className="relative max-w-[100ch] mx-auto bg-white min-h-dvh border-2 border-gray-400 rounded-lg p-12 space-y-8">
           {/* Resume Header */}
           <ResumeHeader
-            userName="John Doe"
-            phoneNumber={6474640303}
-            userEmail="john.doe@gmail.com"
-            userWebsite="www.john-doe.com"
-            linkedinUser="john_doe"
-            githubName="john_doe"
+            userName={sampleUser.name}
+            phoneNumber={sampleUser.phoneNumber}
+            userEmail={sampleUser.email}
+            userWebsite={sampleUser.website}
+            linkedinUser={sampleUser.linkedin}
+            githubName={sampleUser.github}
           />
 
           {/* Professional Summary */}
@@ -64,14 +73,7 @@ export default function Page() {
             >
               Professional Summary
             </h2>
-            <ProfessionalSummary
-              summary="Creative and results-driven Marketing Professional with 5+ years of
-      experience in digital marketing, brand strategy, and content creation.
-      Skilled in developing data-driven campaigns that drive engagement and
-      revenue growth. Adept at managing cross-functional teams and building
-      strong client relationships. Passionate about storytelling and leveraging
-      emerging technologies to enhance brand visibility."
-            />
+            <ProfessionalSummary summary={sampleUser.summary} />
           </section>
 
           {/* Skills */}
@@ -82,7 +84,7 @@ export default function Page() {
             >
               Skills
             </h2>
-            {professionalSkillsData.map((skillSet, index) => (
+            {sampleUser.professionalSkillsData.map((skillSet, index) => (
               <ProfessionalSkills
                 key={index}
                 specializations={skillSet.specializations}
