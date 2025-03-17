@@ -1,4 +1,5 @@
 import React from "react";
+import ResumeHeader from "@/components/ResumeHeader";
 
 export default function Page() {
   return (
@@ -18,15 +19,14 @@ export default function Page() {
       >
         <div className="relative max-w-[100ch] mx-auto bg-white min-h-dvh border-2 border-gray-400 rounded-lg p-12 space-y-8">
           {/* Resume Header */}
-          <div className="space-y-2" data-type="resume-header">
-            <h1 className="text-4xl">Person Name</h1>
-            <div className="flex items-center divide-x-2 divide-gray-900">
-              <p className="px-2">647-464-0303</p>
-              <p className="px-2">example.name@gmail.com</p>
-              <p className="px-2">www.person-name.com</p>
-              <p className="px-2">github.com/personName</p>
-            </div>
-          </div>
+          <ResumeHeader
+            userName="John Doe"
+            phoneNumber={6474640303}
+            userEmail="john.doe@gmail.com"
+            userWebsite="www.john-doe.com"
+            linkedinUser="john_doe"
+            githubName="john_doe"
+          />
 
           {/* Professional Summary */}
           <section aria-labelledby="professional-summary-heading">
