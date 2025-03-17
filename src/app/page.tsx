@@ -3,6 +3,7 @@ import ResumeHeader from "@/components/ResumeHeader";
 import ProfessionalSummary from "@/components/ProfessionalSummary";
 import ProfessionalSkills from "@/components/ProfessionalSkills";
 import Experience from "@/components/Experience";
+import Projects from "@/components/Projects";
 
 const sampleUser = {
   name: "Ava Johnson",
@@ -183,18 +184,12 @@ export default function Page() {
             >
               Projects
             </h2>
-            <div className="flex items-center justify-between mt-2 text-sm">
-              <span className="flex items-center gap-2">
-                <p className="font-semibold">Project Name</p>
-              </span>
-              <p>github.com/project-name</p>
-            </div>
-            <ul
-              className="ml-6 list-disc [&>li]:mt-1 text-sm"
-              data-type="experience-description"
-            >
-              <li>1st level of puns: 5 gold coins</li>
-            </ul>
+            <Projects
+              projectName="Sample Project"
+              githubCode="https://github.com/Justin-Bento"
+              liveDemo="https://www.justin-bento.com/"
+              projectSummary="This is my portfolio that I built to show employers and clients my process behind the screen."
+            />
           </section>
 
           {/* Education */}
