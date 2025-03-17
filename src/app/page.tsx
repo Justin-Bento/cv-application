@@ -1,7 +1,34 @@
 import React from "react";
 import ResumeHeader from "@/components/ResumeHeader";
 import ProfessionalSummary from "@/components/ProfessionalSummary";
+import ProfessionalSkills from "@/components/ProfessionalSkills";
 
+const professionalSkillsData = [
+  {
+    specializations: "Digital Marketing",
+    highlights: [
+      "Campaign Strategy",
+      "SEO",
+      "Email Advertising",
+      "Conversion Rate Optimization",
+      "Google Analytics KPI",
+    ],
+  },
+  {
+    specializations: "Web Development",
+    highlights: ["React", "Next.js", "Tailwind CSS", "Node.js", "TypeScript"],
+  },
+  {
+    specializations: "Graphic Design",
+    highlights: [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Figma",
+      "UI/UX Design",
+      "Branding",
+    ],
+  },
+];
 export default function Page() {
   return (
     <main className="grid grid-cols-12 gap-4">
@@ -55,29 +82,13 @@ export default function Page() {
             >
               Skills
             </h2>
-            <div className="space-y-1 mt-2">
-              <div className="flex items-center gap-1 text-sm">
-                <p className="font-semibold">Digital Marketing:</p>
-                <p>
-                  Skill Set, Skill Set, Skill Set, Skill Set, Skill Set, Skill
-                  Set, Skill Set, Skill Set, Skill Set
-                </p>
-              </div>
-              <div className="flex items-center gap-1 text-sm">
-                <p className="font-semibold">Social Media:</p>
-                <p>
-                  Skill Set, Skill Set, Skill Set, Skill Set, Skill Set, Skill
-                  Set, Skill Set, Skill Set, Skill Set
-                </p>
-              </div>
-              <div className="flex items-center gap-1 text-sm">
-                <p className="font-semibold">Content Creation:</p>
-                <p>
-                  Skill Set, Skill Set, Skill Set, Skill Set, Skill Set, Skill
-                  Set, Skill Set, Skill Set, Skill Set
-                </p>
-              </div>
-            </div>
+            {professionalSkillsData.map((skillSet, index) => (
+              <ProfessionalSkills
+                key={index}
+                specializations={skillSet.specializations}
+                highlights={skillSet.highlights}
+              />
+            ))}
           </section>
 
           {/* Work Experience */}
