@@ -113,6 +113,18 @@ export default function Page() {
             >
               Projects
             </h2>
+            <div className="flex items-center justify-between mt-2 text-sm">
+              <span className="flex items-center gap-2">
+                <p className="font-semibold">Project Name</p>
+              </span>
+              <p>github.com/project-name</p>
+            </div>
+            <ul
+              className="ml-6 list-disc [&>li]:mt-1 text-sm"
+              data-type="experience-description"
+            >
+              <li>1st level of puns: 5 gold coins</li>
+            </ul>
           </section>
 
           {/* Education */}
@@ -123,6 +135,20 @@ export default function Page() {
             >
               Education
             </h2>
+            <div className="flex items-center justify-between mt-2 text-sm">
+              <span className="flex items-center gap-2">
+                <p className="font-semibold">School</p>
+                <p>Degree in</p>
+                <p>Degree</p>
+              </span>
+              <p>End Date</p>
+            </div>
+            <ul
+              className="ml-6 list-disc [&>li]:mt-1 text-sm"
+              data-type="experience-description"
+            >
+              <li>1st level of puns: 5 gold coins</li>
+            </ul>
           </section>
         </div>
       </section>
