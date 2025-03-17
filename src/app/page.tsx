@@ -22,7 +22,9 @@ export default function page() {
           {/* 
             End of Resume Header
           */}
-          <Headers title="Skills" />
+          <section className="">
+            <Headers title="Skills" />
+          </section>
         </div>
       </section>
     </main>
