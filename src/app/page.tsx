@@ -1,5 +1,6 @@
 import React from "react";
 import ResumeHeader from "@/components/ResumeHeader";
+import ProfessionalSummary from "@/components/ProfessionalSummary";
 
 export default function Page() {
   return (
@@ -36,15 +37,14 @@ export default function Page() {
             >
               Professional Summary
             </h2>
-            <p className="text-sm leading-5 mt-2">
-              Creative and results-driven Marketing Professional with 5+ years
-              of experience in digital marketing, brand strategy, and content
-              creation. Skilled in developing data-driven campaigns that drive
-              engagement and revenue growth. Adept at managing cross-functional
-              teams and building strong client relationships. Passionate about
-              storytelling and leveraging emerging technologies to enhance brand
-              visibility.
-            </p>
+            <ProfessionalSummary
+              summary="Creative and results-driven Marketing Professional with 5+ years of
+      experience in digital marketing, brand strategy, and content creation.
+      Skilled in developing data-driven campaigns that drive engagement and
+      revenue growth. Adept at managing cross-functional teams and building
+      strong client relationships. Passionate about storytelling and leveraging
+      emerging technologies to enhance brand visibility."
+            />
           </section>
 
           {/* Skills */}
