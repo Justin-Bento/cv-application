@@ -85,6 +85,23 @@ export default function page() {
             <h2 className="scroll-m-10 border-b pb-1 text-base/6 font-semibold tracking-tight transition-colors m-0 p-0">
               Work Expereince
             </h2>
+            <div
+              className="flex items-center justify-between mt-2"
+              datatype="expereince-header"
+            >
+              <h3 className="">
+                <strong>Job Title</strong>, Company &ndash; City, ST
+              </h3>
+              <h3 className="">Start Date, End Date</h3>
+            </div>
+            <ul
+              className="ml-6 list-disc [&>li]:mt-1"
+              datatype="experience-description"
+            >
+              <li>1st level of puns: 5 gold coins</li>
+              <li>2nd level of jokes: 10 gold coins</li>
+              <li>3rd level of one-liners : 20 gold coins</li>
+            </ul>
           </section>
           {/* 
             End of Work Expereince
