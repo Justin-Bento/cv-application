@@ -81,26 +81,27 @@ export default function page() {
           {/* 
             End of Skills
           */}
-          <section className="">
+          <section>
             <h2 className="scroll-m-10 border-b pb-1 text-base/6 font-semibold tracking-tight transition-colors m-0 p-0">
-              Work Expereince
+              Work Experience
             </h2>
             <div
               className="flex items-center justify-between mt-2"
-              datatype="expereince-header"
+              data-type="experience-header"
             >
-              <h3 className="">
-                <strong>Job Title</strong>, Company &ndash; City, ST
-              </h3>
-              <h3 className="">Start Date, End Date</h3>
+              <div>
+                <p className="font-semibold">Job Title</p>
+                <p>Company – City, ST</p>
+              </div>
+              <p>Start Date – End Date</p>
             </div>
             <ul
               className="ml-6 list-disc [&>li]:mt-1"
-              datatype="experience-description"
+              data-type="experience-description"
             >
               <li>1st level of puns: 5 gold coins</li>
               <li>2nd level of jokes: 10 gold coins</li>
-              <li>3rd level of one-liners : 20 gold coins</li>
+              <li>3rd level of one-liners: 20 gold coins</li>
             </ul>
           </section>
           {/* 
