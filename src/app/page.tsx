@@ -1,5 +1,4 @@
 import React from "react";
-import Headers from "@/components/Headers";
 
 export default function page() {
   return (
@@ -23,7 +22,9 @@ export default function page() {
             End of Resume Header
           */}
           <section className="">
-            <Headers title="Skills" />
+            <h2 className="scroll-m-10 border-b pb-1 text-base/6 font-semibold tracking-tight transition-colors m-0 p-0">
+              Skills
+            </h2>
           </section>
         </div>
       </section>
