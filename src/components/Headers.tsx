@@ -6,9 +6,8 @@ interface HeaderInterface {
 
 export default function Headers({ title }: HeaderInterface) {
   return (
-    <>
-      <h2 className="">{title}</h2>
-      <div className="border border-gray-900 w-full"></div>
-    </>
+    <h2 className="scroll-m-10 border-b pb-1 text-base/6 font-semibold tracking-tight transition-colors m-0 p-0">
+      {title}
+    </h2>
   );
 }
