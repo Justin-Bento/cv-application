@@ -2,6 +2,7 @@ import React from "react";
 import ResumeHeader from "@/components/ResumeHeader";
 import ProfessionalSummary from "@/components/ProfessionalSummary";
 import ProfessionalSkills from "@/components/ProfessionalSkills";
+import Experience from "@/components/Experience";
 
 const sampleUser = {
   name: "Ava JohnSon",
@@ -151,21 +152,20 @@ export default function Page() {
             >
               Work Experience
             </h2>
-            <div className="flex items-center justify-between mt-2 text-sm">
-              <span className="flex items-center gap-2">
-                <p className="font-semibold">Job Title</p>
-                <p>Company – City, ST</p>
-              </span>
-              <p>Start Date – End Date</p>
-            </div>
-            <ul
-              className="ml-6 list-disc [&>li]:mt-1 text-sm"
-              data-type="experience-description"
-            >
-              <li>1st level of puns: 5 gold coins</li>
-              <li>2nd level of jokes: 10 gold coins</li>
-              <li>3rd level of one-liners: 20 gold coins</li>
-            </ul>
+            {sampleUser.workExperenceData.map((expereince) => {
+              return (
+                <Experience
+                  key={expereince.id}
+                  jobTitle={expereince.jobTitle}
+                  company={expereince.company}
+                  city={expereince.city}
+                  state={expereince.state}
+                  startDate={expereince.dates.start}
+                  endDate={expereince.dates.end}
+                  bulletPoints={expereince.bullet_point}
+                />
+              );
+            })}
           </section>
 
           {/* Projects */}
