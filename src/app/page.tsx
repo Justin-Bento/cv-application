@@ -5,14 +5,14 @@ import ProfessionalSkills from "@/components/ProfessionalSkills";
 import Experience from "@/components/Experience";
 
 const sampleUser = {
-  name: "Ava JohnSon",
-  email: "john.doe@gmail.com",
-  phoneNumber: 6474640303,
-  website: "www.john-doe.com",
-  linkedin: "john_doe",
-  github: "john_doe",
+  name: "Ava Johnson",
+  email: "ava.johnson@gmail.com",
+  phoneNumber: 5551234567,
+  website: "www.avajohnson.com",
+  linkedin: "avajohnson",
+  github: "avajohnson",
   summary:
-    "Creative and results-driven Marketing Professional with 5+ years of experience in digital marketing, brand strategy, and content creation. Skilled in developing data-driven campaigns that drive engagement and revenue growth. Adept at managing cross-functional teams and building strong client relationships. Passionate about storytelling and leveraging emerging technologies to enhance brand visibility",
+    "Creative and results-driven Marketing Professional with 5+ years of experience in digital marketing, brand strategy, and content creation. Skilled in developing data-driven campaigns that drive engagement and revenue growth. Adept at managing cross-functional teams and building strong client relationships.",
   professionalSkillsData: [
     {
       specializations: "Digital Marketing",
@@ -85,6 +85,13 @@ const sampleUser = {
         "Manage a team of 4 junior marketers, providing mentorship and guidance on campaign strategy and execution.",
         "Analyze campaign performance using Google Analytics and Tableau, delivering actionable insights to optimize ROI.",
       ],
+    },
+  ],
+  projectData: [
+    {
+      name: "proejct xyz",
+      url: "proejct xyz",
+      shortSummary: "proejct xyz",
     },
   ],
 };
