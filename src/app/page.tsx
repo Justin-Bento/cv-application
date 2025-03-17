@@ -4,6 +4,7 @@ import ProfessionalSummary from "@/components/ProfessionalSummary";
 import ProfessionalSkills from "@/components/ProfessionalSkills";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
+import Eduction from "@/components/Eduction";
 
 const sampleUser = {
   name: "Ava Johnson",
@@ -90,9 +91,11 @@ const sampleUser = {
   ],
   projectData: [
     {
-      name: "proejct xyz",
-      url: "proejct xyz",
-      shortSummary: "proejct xyz",
+      name: "Joke Tax Chronicles",
+      code: "https://github.com/Justin-Bento",
+      live: "https://github.com/Justin-Bento",
+      summary:
+        "Once upon a time, in a far-off land, there was a very lazy king who spent all day lounging on his throne. One day, his advisors came to him with a problem: the kingdom was running out of money",
     },
   ],
 };
@@ -184,12 +187,17 @@ export default function Page() {
             >
               Projects
             </h2>
-            <Projects
-              projectName="Sample Project"
-              githubCode="https://github.com/Justin-Bento"
-              liveDemo="https://www.justin-bento.com/"
-              projectSummary="This is my portfolio that I built to show employers and clients my process behind the screen."
-            />
+            {sampleUser.projectData.map((data, index) => {
+              return (
+                <Projects
+                  key={index}
+                  projectName={data.name}
+                  githubCode={data.code}
+                  liveDemo={data.live}
+                  projectSummary={data.summary}
+                />
+              );
+            })}
           </section>
 
           {/* Education */}
@@ -200,20 +208,7 @@ export default function Page() {
             >
               Education
             </h2>
-            <div className="flex items-center justify-between mt-2 text-sm">
-              <span className="flex items-center gap-2">
-                <p className="font-semibold">School</p>
-                <p>Degree in</p>
-                <p>Degree</p>
-              </span>
-              <p>End Date</p>
-            </div>
-            <ul
-              className="ml-6 list-disc [&>li]:mt-1 text-sm"
-              data-type="experience-description"
-            >
-              <li>1st level of puns: 5 gold coins</li>
-            </ul>
+            <Eduction />
           </section>
         </div>
       </section>
