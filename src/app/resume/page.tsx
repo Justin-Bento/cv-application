@@ -26,7 +26,7 @@ export default function Resume() {
                   <input
                     type="text"
                     className="border rounded-lg py-2.5 px-2 p-1 text-xs text-gray-700"
-                    value="John Doe"
+                    placeholder="john doe"
                   />
                 </li>
                 <li className="flex flex-col gap-2">
@@ -34,7 +34,7 @@ export default function Resume() {
                   <input
                     type="text"
                     className="border rounded-lg py-2.5 px-2 p-1 text-xs text-gray-700"
-                    value="John Doe"
+                    placeholder="the-doe@exampl.com"
                   />
                 </li>
                 <li className="flex flex-col gap-2">
@@ -42,7 +42,7 @@ export default function Resume() {
                   <input
                     type="text"
                     className="border rounded-lg py-2.5 px-2 p-1 text-xs text-gray-700"
-                    value="John Doe"
+                    placeholder="github.com/john-doe"
                   />
                 </li>
                 <li className="flex flex-col gap-2">
@@ -50,7 +50,7 @@ export default function Resume() {
                   <input
                     type="text"
                     className="border rounded-lg py-2.5 px-2 p-1 text-xs text-gray-700"
-                    value="John Doe"
+                    placeholder="linkedin.com/in/johndoe/"
                   />
                 </li>
                 <li className="flex flex-col gap-2">
@@ -58,7 +58,7 @@ export default function Resume() {
                   <input
                     type="text"
                     className="border rounded-lg py-2.5 px-2 p-1 text-xs text-gray-700"
-                    value="John Doe"
+                    placeholder="www.john-doe.com"
                   />
                 </li>
               </ul>
