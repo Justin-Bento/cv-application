@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <>
@@ -16,15 +18,15 @@ export default function Home() {
             for the privilege
           </p>
           <div className="flex items-center justify-center gap-4 mt-10">
-            <a
-              href=""
+            <Link
+              href="/app/resume"
               className="text-sm/[2] bg-black text-white px-6 py-1 rounded"
             >
               View Project&nbsp;&rarr;
-            </a>
-            <a href="" className="text-sm/[2]">
+            </Link>
+            <Link href="" className="text-sm/[2]">
               View Code
-            </a>
+            </Link>
           </div>
         </section>
       </main>
