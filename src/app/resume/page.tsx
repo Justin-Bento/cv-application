@@ -3,7 +3,7 @@ import { Download } from "lucide-react";
 export default function Resume() {
   return (
     <>
-      <main className="min-h-dvh container mx-auto mt-24">
+      <main className=" container mx-auto mt-24">
         <section className="max-w-5xl">
           <h1 className="scroll-m-20 text-4xl lg:tracking-wide font-extrabold tracking-tight">
             Build Your Resume
@@ -13,8 +13,8 @@ export default function Resume() {
             download as PDF.
           </p>
         </section>
-        <section className="grid grid-cols-2 gap-8 mt-8">
-          <div className="rounded-xl border p-6">
+        <section className="grid grid-cols-2 gap-8 mt-8 max-h-[100dvh]">
+          <div className="rounded-xl border p-6 overflow-scroll">
             {/* Sections of a resume */}
             <div className="">
               <h2 className="scroll-m-20 text-xl font-semibold">
@@ -79,12 +79,55 @@ export default function Resume() {
                 Work Expereince
               </h2>
               <ul className="">
-                <li className="">Job Title</li>
-                <li className="">Company</li>
-                <li className="">City</li>
-                <li className="">State</li>
-                <li className="">Start Date</li>
-                <li className="">End Date</li>
+                <li className="flex flex-col gap-2 text-sm font-bold leading-[2]">
+                  Job Title:
+                  <input
+                    type="text"
+                    className="border rounded-lg py-2.5 px-2 p-1 text-xs text-gray-700"
+                    placeholder="john doe"
+                  />
+                </li>
+                <li className="flex flex-col gap-2 text-sm font-bold leading-[2]">
+                  Company:
+                  <input
+                    type="text"
+                    className="border rounded-lg py-2.5 px-2 p-1 text-xs text-gray-700"
+                    placeholder="john doe"
+                  />
+                </li>
+                <li className="flex flex-col gap-2 text-sm font-bold leading-[2]">
+                  City:
+                  <input
+                    type="text"
+                    className="border rounded-lg py-2.5 px-2 p-1 text-xs text-gray-700"
+                    placeholder="john doe"
+                  />
+                </li>
+                <li className="flex flex-col gap-2 text-sm font-bold leading-[2]">
+                  State:
+                  <input
+                    type="text"
+                    className="border rounded-lg py-2.5 px-2 p-1 text-xs text-gray-700"
+                    placeholder="john doe"
+                  />
+                </li>
+
+                <li className="flex flex-col gap-2 text-sm font-bold leading-[2]">
+                  Start Date:
+                  <input
+                    type="text"
+                    className="border rounded-lg py-2.5 px-2 p-1 text-xs text-gray-700"
+                    placeholder="john doe"
+                  />
+                </li>
+                <li className="flex flex-col gap-2 text-sm font-bold leading-[2]">
+                  End Date:
+                  <input
+                    type="text"
+                    className="border rounded-lg py-2.5 px-2 p-1 text-xs text-gray-700"
+                    placeholder="john doe"
+                  />
+                </li>
               </ul>
               <ul className="">
                 <li className="">Bullet Point</li>
