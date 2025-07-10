@@ -67,6 +67,12 @@ export default function Resume() {
               <h2 className="scroll-m-20 text-xl font-semibold">
                 Professional Summary
               </h2>
+              <textarea
+                name=""
+                id=""
+                rows={2}
+                className="border w-full p-3 rounded"
+              ></textarea>
             </div>
             <div className="">
               <h2 className="scroll-m-20 text-xl font-semibold">
