@@ -14,7 +14,69 @@ export default function Resume() {
           </p>
         </section>
         <section className="grid grid-cols-2 gap-8 mt-8">
-          <div className="rounded-xl border py-6">&nbsp;</div>
+          <div className="rounded-xl border p-6">
+            {/* Sections of a resume */}
+            <div className="">
+              <h2 className="scroll-m-20 text-xl font-semibold">
+                Personal Infromation
+              </h2>
+              <ul className="">
+                <li className="">
+                  Name:
+                  <input
+                    type="text"
+                    className="border bg-gray-200 p-1 text-xs"
+                    value="John Doe"
+                  />
+                </li>
+                <li className="">
+                  E-Mail:
+                  <input
+                    type="text"
+                    className="border bg-gray-200 p-1 text-xs"
+                    value="John Doe"
+                  />
+                </li>
+                <li className="">
+                  Github:
+                  <input
+                    type="text"
+                    className="border bg-gray-200 p-1 text-xs"
+                    value="John Doe"
+                  />
+                </li>
+                <li className="">
+                  LinkedIn:
+                  <input
+                    type="text"
+                    className="border bg-gray-200 p-1 text-xs"
+                    value="John Doe"
+                  />
+                </li>
+                <li className="">
+                  Personal Website:
+                  <input
+                    type="text"
+                    className="border bg-gray-200 p-1 text-xs"
+                    value="John Doe"
+                  />
+                </li>
+              </ul>
+            </div>
+            <div className="">
+              <h2 className="scroll-m-20 text-xl font-semibold">
+                Professional Summary
+              </h2>
+            </div>
+            <div className="">
+              <h2 className="scroll-m-20 text-xl font-semibold">
+                Work Expereince
+              </h2>
+            </div>
+            <div className="">
+              <h2 className="scroll-m-20 text-xl font-semibold">Skills</h2>
+            </div>
+          </div>
           <div className="rounded-xl border py-6 shadow-sm">&nbsp;</div>
         </section>
         <section className="mt-12">
