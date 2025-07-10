@@ -13,8 +13,8 @@ export default function Resume() {
             download as PDF.
           </p>
         </section>
-        <section className="grid grid-cols-2 gap-8 mt-8 max-h-[100dvh]">
-          <div className="rounded-xl border p-6 overflow-scroll">
+        <section className="grid grid-cols-2 gap-8 mt-8 ">
+          <div className="rounded-xl border p-6 max-h-[100dvh] overflow-y-scroll ring-1 ring-gray-300  ">
             {/* Sections of a resume */}
             <div className="">
               <h2 className="scroll-m-20 text-xl font-semibold">
