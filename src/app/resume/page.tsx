@@ -11,6 +11,10 @@ export default function Resume() {
             error of his ways and repealed the joke tax.
           </p>
         </section>
+        <section className="grid grid-cols-2 gap-8 mt-8">
+          <div className="rounded-xl border py-6">&nbsp;</div>
+          <div className="rounded-xl border py-6 shadow-sm">&nbsp;</div>
+        </section>
       </main>
     </>
   );
