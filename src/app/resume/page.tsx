@@ -20,44 +20,44 @@ export default function Resume() {
               <h2 className="scroll-m-20 text-xl font-semibold">
                 Personal Infromation
               </h2>
-              <ul className="">
-                <li className="">
+              <ul className="space-y-4 my-4">
+                <li className="flex flex-col gap-2">
                   Name:
                   <input
                     type="text"
-                    className="border bg-gray-200 p-1 text-xs"
+                    className="border rounded-lg py-2.5 px-2 p-1 text-xs text-gray-700"
                     value="John Doe"
                   />
                 </li>
-                <li className="">
+                <li className="flex flex-col gap-2">
                   E-Mail:
                   <input
                     type="text"
-                    className="border bg-gray-200 p-1 text-xs"
+                    className="border rounded-lg py-2.5 px-2 p-1 text-xs text-gray-700"
                     value="John Doe"
                   />
                 </li>
-                <li className="">
+                <li className="flex flex-col gap-2">
                   Github:
                   <input
                     type="text"
-                    className="border bg-gray-200 p-1 text-xs"
+                    className="border rounded-lg py-2.5 px-2 p-1 text-xs text-gray-700"
                     value="John Doe"
                   />
                 </li>
-                <li className="">
+                <li className="flex flex-col gap-2">
                   LinkedIn:
                   <input
                     type="text"
-                    className="border bg-gray-200 p-1 text-xs"
+                    className="border rounded-lg py-2.5 px-2 p-1 text-xs text-gray-700"
                     value="John Doe"
                   />
                 </li>
-                <li className="">
+                <li className="flex flex-col gap-2">
                   Personal Website:
                   <input
                     type="text"
-                    className="border bg-gray-200 p-1 text-xs"
+                    className="border rounded-lg py-2.5 px-2 p-1 text-xs text-gray-700"
                     value="John Doe"
                   />
                 </li>
