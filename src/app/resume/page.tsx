@@ -21,7 +21,7 @@ export default function Resume() {
                 Personal Infromation
               </h2>
               <ul className="space-y-4 my-4">
-                <li className="flex flex-col gap-2">
+                <li className="flex flex-col gap-2 text-sm font-bold leading-[2]">
                   Name:
                   <input
                     type="text"
@@ -29,7 +29,7 @@ export default function Resume() {
                     placeholder="john doe"
                   />
                 </li>
-                <li className="flex flex-col gap-2">
+                <li className="flex flex-col gap-2 text-sm font-bold leading-[2]">
                   E-Mail:
                   <input
                     type="text"
@@ -37,7 +37,7 @@ export default function Resume() {
                     placeholder="the-doe@exampl.com"
                   />
                 </li>
-                <li className="flex flex-col gap-2">
+                <li className="flex flex-col gap-2 text-sm font-bold leading-[2]">
                   Github:
                   <input
                     type="text"
@@ -45,7 +45,7 @@ export default function Resume() {
                     placeholder="github.com/john-doe"
                   />
                 </li>
-                <li className="flex flex-col gap-2">
+                <li className="flex flex-col gap-2 text-sm font-bold leading-[2]">
                   LinkedIn:
                   <input
                     type="text"
@@ -53,7 +53,7 @@ export default function Resume() {
                     placeholder="linkedin.com/in/johndoe/"
                   />
                 </li>
-                <li className="flex flex-col gap-2">
+                <li className="flex flex-col gap-2 text-sm font-bold leading-[2]">
                   Personal Website:
                   <input
                     type="text"
