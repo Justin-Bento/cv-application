@@ -78,6 +78,17 @@ export default function Resume() {
               <h2 className="scroll-m-20 text-xl font-semibold">
                 Work Expereince
               </h2>
+              <ul className="">
+                <li className="">Job Title</li>
+                <li className="">Company</li>
+                <li className="">City</li>
+                <li className="">State</li>
+                <li className="">Start Date</li>
+                <li className="">End Date</li>
+              </ul>
+              <ul className="">
+                <li className="">Bullet Point</li>
+              </ul>
             </div>
             <div className="">
               <h2 className="scroll-m-20 text-xl font-semibold">Skills</h2>
