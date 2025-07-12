@@ -5,7 +5,7 @@ export default function Navigation() {
   return (
     <>
       <main className=" sticky top-0 bg-white">
-        <div className="overflow-hidden  shadow sm:rounded-lg">
+        <div className="overflow-hidden  shadow">
           <div className="px-4 py-5 sm:p-6 grid grid-cols-1 md:grid-cols-2">
             <Link href="" className="flex items-center gap-2">
               <svg
