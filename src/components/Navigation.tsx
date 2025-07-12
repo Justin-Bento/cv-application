@@ -25,6 +25,14 @@ export default function Navigation() {
               CV Application
             </p>
            </a>
+           <ul className="flex items-center gap-4">
+            <li className="">
+              <a href="">Project Source</a>
+            </li>
+            <li className="">
+              <a href="">GitHub Code</a>
+            </li>
+           </ul>
           </div>
         </div>
       </main>
