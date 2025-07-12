@@ -25,7 +25,7 @@ export default function Navigation() {
               CV Application
             </p>
            </a>
-           <ul className="flex items-center gap-4">
+           <ul className="flex items-center lg:justify-end gap-4">
             <li className="">
               <a href="">Project Source</a>
             </li>
