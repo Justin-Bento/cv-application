@@ -32,11 +32,6 @@ export default function Navigation() {
                 Project Source
                 </Link>
               </li>
-              <li className="">
-                <Link href="https://github.com/Justin-Bento/cv-application" className="small">
-                GitHub Code
-                </Link>
-              </li>
             </ul>
           </div>
         </div>

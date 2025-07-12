@@ -24,7 +24,7 @@ export default function Home() {
             >
               View Project&nbsp;&rarr;
             </Link>
-            <Link href="" className="text-sm/[2]">
+            <Link href="https://github.com/Justin-Bento/cv-application" className="text-sm/[2]">
               View Code
             </Link>
           </div>
