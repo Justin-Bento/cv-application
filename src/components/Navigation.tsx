@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Navigation() {
@@ -6,7 +7,7 @@ export default function Navigation() {
       <main className=" sticky top-0 bg-white">
         <div className="overflow-hidden  shadow sm:rounded-lg">
           <div className="px-4 py-5 sm:p-6 grid grid-cols-1 grid-cols-2">
-            <a href="" className="flex items-center gap-2">
+            <Link href="" className="flex items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -24,13 +25,13 @@ export default function Navigation() {
               <p className="uppercase text-sm font-bold tracking-wider">
                 CV Application
               </p>
-            </a>
+            </Link>
             <ul className="flex items-center lg:justify-end gap-4">
               <li className="">
-                <a href="">Project Source</a>
+                <Link href="">Project Source</Link>
               </li>
               <li className="">
-                <a href="">GitHub Code</a>
+                <Link href="">GitHub Code</Link>
               </li>
             </ul>
           </div>
