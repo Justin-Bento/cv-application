@@ -35,3 +35,61 @@ body {
 .small:focus {
   opacity: 0.7;
 }
+
+/*
+Custom Typography System - Pure Tailwind
+========================================
+
+heading-1:
+----------
+text-4xl font-extrabold tracking-tight text-gray-900 lg:text-5xl
+
+heading-2:
+----------
+text-3xl font-semibold tracking-tight text-gray-900 border-b border-gray-200 pb-2 first:mt-0
+
+heading-3:
+----------
+text-2xl font-semibold tracking-tight text-gray-900
+
+heading-4:
+----------
+text-xl font-semibold tracking-tight text-gray-900
+
+paragraph:
+----------
+text-gray-700 leading-relaxed [&:not(:first-child)]:mt-6
+
+blockquote:
+-----------
+mt-6 border-l-4 border-gray-300 pl-6 italic text-gray-600
+
+list (ordered):
+---------------
+my-6 ml-6 list-decimal text-gray-700 [&>li]:mt-2
+
+list (unordered):
+-----------------
+my-6 ml-6 list-disc text-gray-700 [&>li]:mt-2
+
+inline-code:
+------------
+bg-gray-100 text-gray-800 px-2 py-1 rounded font-mono text-sm font-medium
+
+lead:
+-----
+text-xl text-gray-600 leading-relaxed
+
+large:
+------
+text-lg font-semibold text-gray-900
+
+small:
+------
+text-sm font-medium leading-none text-gray-700
+
+muted:
+------
+text-sm text-gray-500
+
+*/
