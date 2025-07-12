@@ -24,3 +24,14 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+.small {
+  font-size: var(--text-sm);
+  line-height: 0;
+  font-weight: var(--font-weight-medium);
+}
+.small:hover {
+  text-decoration: underline;
+}
+.small:focus {
+  opacity: 0.7;
+}
