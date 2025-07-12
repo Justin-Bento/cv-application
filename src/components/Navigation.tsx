@@ -6,7 +6,7 @@ export default function Navigation() {
       <main className=" sticky top-0 bg-white">
         <div className="overflow-hidden  shadow sm:rounded-lg">
           <div className="px-4 py-5 sm:p-6">
-            <p>This is a headinsg</p>
+            <p className="uppercase text-sm font-bold tracking-wider">This is a headinsg</p>
           </div>
         </div>
       </main>
