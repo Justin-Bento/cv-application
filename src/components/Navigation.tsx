@@ -22,16 +22,20 @@ export default function Navigation() {
                 <path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z" />
                 <path d="M14 3v5h5M16 13H8M16 17H8M10 9H8" />
               </svg>
-              <p className="uppercase text-sm font-bold tracking-wider">
+              <p className="uppercase text-sm leading-none font-bold tracking-wider">
                 CV Application
               </p>
             </Link>
             <ul className="flex items-center lg:justify-end gap-4">
               <li className="">
-                <Link href="">Project Source</Link>
+                <Link href="" className="text-sm leading-none font-medium">
+                Project Source
+                </Link>
               </li>
               <li className="">
-                <Link href="">GitHub Code</Link>
+                <Link href="" className="text-sm leading-none font-medium">
+                GitHub Code
+                </Link>
               </li>
             </ul>
           </div>
