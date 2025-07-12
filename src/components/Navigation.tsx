@@ -28,12 +28,12 @@ export default function Navigation() {
             </Link>
             <ul className="flex items-center lg:justify-end gap-4">
               <li className="">
-                <Link href="" className="text-sm leading-none font-medium">
+                <Link href="" className="text-sm leading-none font-medium hover:underline">
                 Project Source
                 </Link>
               </li>
               <li className="">
-                <Link href="" className="text-sm leading-none font-medium">
+                <Link href="" className="text-sm leading-none font-medium hover:underline">
                 GitHub Code
                 </Link>
               </li>
