@@ -6,7 +6,8 @@ export default function Navigation() {
       <main className=" sticky top-0 bg-white">
         <div className="overflow-hidden  shadow sm:rounded-lg">
           <div className="px-4 py-5 sm:p-6">
-            <svg
+           <a href="" className="">
+             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -23,6 +24,7 @@ export default function Navigation() {
             <p className="uppercase text-sm font-bold tracking-wider">
               This is a headinsg
             </p>
+           </a>
           </div>
         </div>
       </main>
