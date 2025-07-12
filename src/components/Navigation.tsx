@@ -22,7 +22,7 @@ export default function Navigation() {
               <path d="M14 3v5h5M16 13H8M16 17H8M10 9H8" />
             </svg>
             <p className="uppercase text-sm font-bold tracking-wider">
-              This is a headinsg
+              CV Application
             </p>
            </a>
           </div>
