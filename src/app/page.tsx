@@ -19,7 +19,7 @@ export default function Home() {
           </p>
           <div className="flex items-center justify-center gap-4 mt-10">
             <Link
-              href="/app/resume"
+              href="/resume"
               className="text-sm/[2] bg-black text-white px-6 py-1 rounded"
             >
               View Project&nbsp;&rarr;
