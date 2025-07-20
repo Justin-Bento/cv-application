@@ -28,6 +28,11 @@ export default function Navigation() {
             </Link>
             <ul className="flex items-center lg:justify-end gap-4">
               <li className="">
+                <Link href="https://github.com/Justin-Bento/cv-application" className="small">
+                Code
+                </Link>
+              </li>
+              <li className="">
                 <Link href="https://www.theodinproject.com/lessons/node-path-react-new-cv-application" className="small">
                 Project Source
                 </Link>
