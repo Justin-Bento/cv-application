@@ -34,7 +34,7 @@ export default function Navigation() {
               </li>
               <li className="">
                 <Link href="https://www.theodinproject.com/lessons/node-path-react-new-cv-application" className="small">
-                Project Source
+                Project
                 </Link>
               </li>
             </ul>
